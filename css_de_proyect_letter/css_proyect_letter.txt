@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ 
+ body{
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    background: linear-gradient(rgba(246, 176, 0, 0.9),rgba(246, 167, 0, 0.9)),
+    url('/img/comida.jpg') ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    z-index: 1;
+
+  
+   }
+   
+
+
+ 
+.principal{
+    margin-top: 0px;
+
+    width: 100%;
+   
+    
+   
+}
+
+.navigator{
+    
+    font-size: 20px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: 0px auto 50px ;
+    padding: 20px 0;
+    background-color: rgb(246, 55, 30);
+   
+    
+   
+}
+.navigator img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+ .navigator ul.menu{
+   
+    display: flex;
+    flex: 20;
+ margin: auto 200px;
+
+}
+.navigator ul.menu li{
+    padding: 10px;
+    list-style: none;
+    /* align-content: center; */
+    transition: all 0.3s ease 0s
+    
+    
+
+}
+/* efecto de agrandar */
+
+.navigator ul.menu li:hover{
+transform: scale(1.1);
+}
+
+.navigator ul.menu li a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+}
+.navigator ul.menu li a:hover{
+    color: rgba(226, 246, 0, 0.9);
+}
+
+.navigator ul.pedidos{
+    /* display: inline; */
+    margin: auto 100px auto auto;
+}
+
+.navigator ul.pedidos li{
+    padding: 9px 25px;
+    color: black;
+    list-style: none;
+    background-color: rgba(226, 246, 0, 0.9);
+    border-radius: 50px;
+    transition: all 0.3s ease 0s
+    
+}
+
+.navigator ul.pedidos li a{
+text-decoration: none;
+color:rgb(246, 55, 30);
+
+}
+.navigator ul.pedidos li:hover{
+  transform:  scale(1.2);
+  
+}
+
+
+.baner{
+   margin: 20px 0;
+   
+    background-color: #000000;
+    width: 100%;
+    height: 500px;
+    background-image: url('/img/baner1.jpg');
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+      
+}
+
+.carta{
+   width: 80%;
+   margin: auto;
+    display: grid;
+    grid-template: repeat(4,1fr) / repeat(4,1fr);
+    gap: 20px 20px;
+    /* margin: 20px  */
+   
+    /* background-color: blueviolet; */
+  
+}
+
+.carta .targ{
+width: 200px;
+height: 280px;
+border-radius: 10px;
+
+/* background-color: blueviolet; */
+text-align: center;
+box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+/* overflow: hidden; */
+transition: all 0.25s;
+
+}
+
+.carta .targ:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.3);
+}
+
+
+.carta .targ img{
+    width: 100%;
+    height: 85%;
+   background-size: contain;
+   border-radius: 20px;
+
+}
+.carta h3{
+     margin: 10px auto 1px auto;
+    padding-bottom: 6px; 
+    padding-top: 6px;
+    background-color: rgb(246, 55, 30);
+    border-radius: 20px;
+   
+
+
+}
+
+.carta h3:first-letter {
+    text-transform: uppercase;
+}
+
+.carta a{
+    
+    text-decoration: none;
+    
+    color:  rgba(226, 246, 0, 0.9);
+    align-items: center;
+
+}
+
+
+.cuerpo{
+    margin-top: 50px;
+    /* background-color: pink; */
+    z-index: 3;
+}
+
+.footer{
+    background-color: brown;
+    z-index: 3;
+}
+
+/* estilo para las categorias de la carta */
+
+.sub-carta1 h1{
+    color: blanchedalmond;
+}
+
+.sub-carta1{
+    width: 500px;
+    margin: auto;
+    
+}

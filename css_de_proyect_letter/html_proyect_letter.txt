@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mata Hambre</title>
+    <link rel="stylesheet" href="/estilos/estilo_main.css">
+    
+    
+</head>
+<body>
+  
+
+ 
+
+    <div class="principal"> 
+
+       <nav class="navigator">
+        <img src="/img/logo.jpg" alt="logo" class="logo">
+        
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Promociones</a></li>
+            
+        </ul>
+ 
+        <ul class="pedidos"> 
+             <li ><a href="#">Pedidos</a></li>
+        </ul>
+           
+       </nav>
+
+       <div class="baner">
+       <p>jojsajjb</p>
+       </div> 
+        <div class="titulo-carta">Carta
+            
+        </div>
+       
+       <div class="carta">
+       
+        <div class="targ">
+          <a href=""><img src="/img/hamburguesa.jpg" alt=""></a> 
+         <a href="/hamburguesas"><h3>hamburguesas</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/montaditos.jpg" alt=""></a> 
+         <a href=""><h3>montaditos</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/tortillas.jpg" alt=""></a> 
+         <a href=""><h3>tortillas</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/croquetas.jpg" alt=""></a> 
+         <a href=""><h3>fritos</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/guisados.jpg" alt=""></a> 
+         <a href=""><h3>guisados</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/carnes.jpg" alt=""></a> 
+         <a href=""><h3>carnes</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/pastas.jpg" alt=""></a> 
+         <a href=""><h3>pastas</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/ensaladillas.jpg" alt=""></a> 
+         <a href=""><h3>ensaladillas</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/postres.jpg" alt=""></a> 
+         <a href=""><h3>postres</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/bebidas.jpg" alt=""></a> 
+         <a href=""><h3>bebidas</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/menu.jpg" alt=""></a> 
+         <a href=""><h3>menu del dia</h3> </a> 
+        </div>
+        <div class="targ">
+          <a href=""><img src="/img/miscelaneos.jpg" alt=""></a> 
+         <a href=""><h3>miscelaneos</h3> </a> 
+        </div>
+       
+       </div>
+          <div class="cuerpo">
+          {{{ body }}}
+          </div>
+           
+          <div class="footer">
+           <P>FOOTER</P>
+           </div>
+    
+   
+    </div>
+    
+ 
+    
+</body>
+</html>
